@@ -1,0 +1,42 @@
+body{
+  background-color: #eeeeee;
+  font-size: 14pt;
+  width: 66%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+input {
+  box-sizing: border-box;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 5px;
+  margin:auto;
+}
+
+.input-row {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-row input {
+  width: 60px;
+}
+
+button {
+  font-size: 14pt;
+  margin-top: 5px;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+}
